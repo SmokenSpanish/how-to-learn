@@ -12,6 +12,10 @@ ul{
 
 li{
     border: 2px dashed rgb(38, 37, 87);
+}
+
+.section{
+    border: 5px dashed rgb(0, 255, 34);
 }*/
 
 .page{
@@ -19,6 +23,7 @@ li{
     max-width: 1600px;
     font-family: 'Helvetica Neue', 'Arial', sans-serif;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .header{
@@ -80,12 +85,6 @@ li{
     width: 765px;
     height: 608px;
     z-index: 1;
-}
-
-.header-image{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
 }
 
 .header__square-pic{
@@ -157,7 +156,7 @@ li{
     margin: 0 auto;
     text-align: center;
     line-height: 34px;
-    font-size: 24;
+    font-size: 24px;
     font-weight: normal;
 }
 
@@ -223,7 +222,7 @@ li{
 }
 
 .feynman__subtitle{
-    margin: 70 auto;
+    margin: 70px auto;
     position: relative;
     text-align: center;
     line-height: 51px;
@@ -243,7 +242,7 @@ li{
 .kaufman{
     padding-top: 90px;
     padding-bottom: 90px;
-    background-color: black;
+    background-color: #1f1f1f;
     color:white;
     position: relative;
     overflow: hidden;
@@ -265,14 +264,13 @@ li{
 
 .footer{
     min-height: 350px;
-    background-color: black;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    background-color: #1f1f1f;
+    padding: 60px 0 40px;
 
 }
 
 .footer__columns{
-    margin: 0px auto 0;
+    margin: 0px auto;
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -289,7 +287,7 @@ li{
 .logo__place_footer{
     width: 183px;
     height: 35px;
-    background-image: url('images/logo_place_footer.svg');
+    background-image: url('../images/logo_place_footer.svg');
 }
 .footer__author{
     margin: 18px 0px;
@@ -303,14 +301,14 @@ li{
     padding-left: 0;
     margin: 20px 0 16px;
     line-height: 30px;
-    font-weight: 18px;
+    font-size: 18px;
     font-weight: normal;
 }
 
 .footer__column-heading{
     margin-top: 0;
     line-height: 30px;
-    font-weight: 18px;
+    font-size: 18px;
     font-weight: bold;
 }
 
