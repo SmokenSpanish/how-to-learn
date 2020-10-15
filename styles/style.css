@@ -76,7 +76,7 @@ li{
     font-weight: normal;
 }
 
-.header__link{
+.link{
     text-decoration: none;
     color: #2f80ed;
 }
@@ -263,6 +263,7 @@ li{
     right: -210px;
     top: 0;
     z-index: -1;
+    background-image: url('../images/kaufman-triangle.svg');
     background-size: cover;
 }
 
@@ -290,7 +291,7 @@ li{
     flex-basis: 711px;
 }
 
-.logo__place_footer{
+.logo_place_footer{
     height: 35px;
     background-image: url('../images/logo_place_footer.svg');
 }
@@ -302,14 +303,17 @@ li{
 }
 
 .footer__column-links{
-    text-decoration: none;
     list-style-type: none;
-    color: white;
-    padding-left: 0;
-    margin: 20px 0 16px;
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
+    padding-left: 0;
+}
+
+.footer__column-link{
+    text-decoration: none;
+    color: white;
+    margin: 20px 0 16px;
 }
 
 .footer__column-heading{
