@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(../keyframes/rotation.css);
+@import url(../blocks/rotation/rotation.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
@@ -48,7 +48,7 @@
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
-@import url(../iframes/video__iframe.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
 @import url(../blocks/oakley/oakley.css);
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/khan/__container/khan__container.css);
