@@ -1,6 +1,6 @@
 .oakley{
     display: flex;
     justify-content: center;
-    height: 296px;
     background-color: #f2f2f2;
+    padding-top: 60px;
 }
